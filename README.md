@@ -11,3 +11,7 @@ You will should first download an iOS client/app. Some options are listed below:
 Download the latest built version from Releases. Extract the files into some folder, you should keep all the files in the ZIP together.
 
 Run `Brokenithnm-Evolved-iOS-Umi.exe`
+
+> [!IMPORTANT]  
+> You must launch the server before Umiguri. If Umiguri is already opened you will need to restart the game
+
