@@ -4,11 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO.MemoryMappedFiles;
-using System.Linq;
 using System.Security.Principal;
 using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace Brokenithm_Evolved_iOS
 {
@@ -119,11 +117,16 @@ namespace Brokenithm_Evolved_iOS
                             try
                             {
                                 Process processToKill = process_map[udid];
-                                if (!processToKill.HasExited)
+                                Console.WriteLine($"destroying brokenithm-evolved-umi server");
+                                Process.Start(new ProcessStartInfo
                                 {
-                                    processToKill.Kill();
-                                }
-                                processToKill.Dispose();
+                                    FileName = "taskkill",
+                                    Arguments = $"/IM brokenithm-evolved-umi.exe /F",
+                                    RedirectStandardOutput = true,
+                                    RedirectStandardError = true,
+                                    UseShellExecute = false,
+                                    CreateNoWindow = true
+                                }).WaitForExit();
                                 process_map.Remove(udid);
                             }
                             catch (Exception ex)

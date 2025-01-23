@@ -1,5 +1,9 @@
 # Brokenithm-Evolved-iOS-Umi
-A version of [esterTion/Brokenithm-iOS](https://github.com/esterTion/Brokenithm-iOS) but maps inputs to keybinds and has support for slider LEDs based on the [Umiguri LED Controller Protocol](https://gist.github.com/inonote/00251fed881a82c9df1e505eef1722bc)
+A version of [esterTion/Brokenithm-iOS](https://github.com/esterTion/Brokenithm-iOS) but maps inputs to keybinds and has support for slider LEDs based on the [Umiguri LED Controller Protocol]
+
+Allows you to use a wired Brokenithm connection with Umiguri and also get all the flashy lights
+
+(https://gist.github.com/inonote/00251fed881a82c9df1e505eef1722bc)
 
 [![Demo](https://files.catbox.moe/w3564o.png)](https://files.catbox.moe/oz9kos.mp4)
 
