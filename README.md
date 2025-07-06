@@ -21,4 +21,6 @@ Run `Brokenithm-Evolved-iOS-Umi.exe`
 > You must launch the server before Umiguri. If Umiguri is already opened you will need to restart the game. 
 
 # Config
-By default no configuration is required. This application will use UMIGURI's 32-zone keyboard layout. 32-zone input is supported, but you will need to find a client that also supports 32-zones of input.
+By default no configuration is required. This application will use UMIGURI's 32-zone keyboard layout. 32-zone input is supported, but you will need to find a client that also supports 32-zones of input (with the exception of air-zones). The default config can be found in `key_config.json`
+
+Due to how the iOS clients above were programmed, the AIR ZONES are out of order due to some IO differences. In the default `key_config.json` this has been adjusted to fix the order when outputting keybinds. However, if for any reason you require the original order then replace the contents `key_config.json` with whats inside `chuniio_key_config.json`
