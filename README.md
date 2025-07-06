@@ -1,8 +1,8 @@
 # Brokenithm-Evolved-iOS-Umi
 
-A version of [esterTion/Brokenithm-iOS](https://github.com/esterTion/Brokenithm-iOS) but maps inputs to keybinds. Uses a WIRED connection with usbmux
+A version of [esterTion/Brokenithm-iOS](https://github.com/esterTion/Brokenithm-iOS) but maps inputs to keybinds (for UMIGURI). Uses a WIRED connection with usbmux. Also works on UMIGURI NEXT
 
-Has support for slider LEDs via websockets ([Umiguri LED Controller Protocol](https://gist.github.com/inonote/00251fed881a82c9df1e505eef1722bc)) so you can get glowy lights if its supported (port 7124)
+Has support for slider LEDs via websockets ([UMIGURI LED Controller Protocol](https://gist.github.com/inonote/00251fed881a82c9df1e505eef1722bc)) so you can get glowy lights if its supported (port 7124)
 
 [![Demo](https://files.catbox.moe/w3564o.png)](https://files.catbox.moe/oz9kos.mp4)
 
@@ -20,3 +20,5 @@ Run `Brokenithm-Evolved-iOS-Umi.exe`
 > [!IMPORTANT]  
 > You must launch the server before Umiguri. If Umiguri is already opened you will need to restart the game. 
 
+# Config
+By default no configuration is required. This application will use UMIGURI's 32-zone keyboard layout. 32-zone input is supported, but you will need to find a client that also supports 32-zones of input.
